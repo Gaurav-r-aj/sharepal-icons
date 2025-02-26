@@ -7,7 +7,8 @@ const SvgIconZoomFill = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`sharepal-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+   className={`sharepal-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true"
+   >
     <path
       fill="currentColor"
       fillRule="evenodd"
